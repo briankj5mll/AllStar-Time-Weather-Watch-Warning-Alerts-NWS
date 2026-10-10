@@ -249,9 +249,6 @@ if [ -n "\$ALERT_EVENT" ]; then
     if echo "\$EVENT_LOWER" | grep -q "watch"; then
         ALERT_FILES="\$ALERT_FILES \$CUSTOM/watch.gsm"
     fi
-    if [ -f "\$CUSTOM/mississippi.gsm" ]; then
-        ALERT_FILES="\$ALERT_FILES \$CUSTOM/mississippi.gsm"
-    fi
     cat \$ALERT_FILES > "\$ALERT_TMP" 2>/dev/null
     if [ -s "\$ALERT_TMP" ]; then
         sleep 2
