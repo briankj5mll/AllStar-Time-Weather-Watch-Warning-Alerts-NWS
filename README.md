@@ -42,7 +42,7 @@ Go to https://www.latlong.net, search for your city, and copy the decimal coordi
 **Step 3 — Download and run the installer:**
 
 ```
-wget https://raw.githubusercontent.com/briankj5mll/AllStar-Time-Weather/main/install_time_weather.sh
+wget https://raw.githubusercontent.com/briankj5mll/AllStar-Time-Weather-Watch-Warning-Alerts-NWS/main/install_time_weather.sh
 chmod +x install_time_weather.sh
 sudo bash install_time_weather.sh
 ```
